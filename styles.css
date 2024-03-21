@@ -1,0 +1,72 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.side-bar {
+    background-image: url(./pics/samuel-girven-VJ2s0c20qCo-unsplash.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+}
+
+body {
+    margin: 0%;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    padding: 20px;
+    background-color: #FFE0AC;
+    height: 33.3vh;
+}
+
+.intro p {
+    font-weight: bold;
+    text-align: left;
+}
+
+.fill {
+    padding: 20px;
+    background-color: #F9F9F9;
+    height: 33.3vh;
+}
+
+.fill p {
+    font-weight: bold;
+}
+
+.names {
+    display: flex;
+    gap: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.details {
+    display: flex;
+    gap: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.passwords{
+    display: flex;
+    gap: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.last {
+    padding: 20px;
+    background-color: #FFE0AC;
+    height: 50%;
+}
+
+
+
