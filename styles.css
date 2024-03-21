@@ -10,6 +10,31 @@
     height: 100vh;
 }
 
+.logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo img {
+    height: 80%;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(./font/Norse-Bold.otf);
+}
+
+.logo p {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: myFont;
+    font-size: larger;
+}
+
 body {
     margin: 0%;
     display: flex;
