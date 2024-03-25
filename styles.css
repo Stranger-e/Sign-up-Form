@@ -6,8 +6,8 @@
 .side-bar {
     background-image: url(./pics/samuel-girven-VJ2s0c20qCo-unsplash.jpg);
     background-size: cover;
-    width: 50%;
     height: 100vh;
+    width: 40vw;
 }
 
 .logo {
@@ -52,6 +52,7 @@ body {
 }
 
 .intro p {
+    font-size: x-large;
     font-weight: bold;
     text-align: left;
 }
@@ -60,6 +61,7 @@ body {
     padding: 20px;
     background-color: #F9F9F9;
     height: 33.3vh;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .fill p {
@@ -91,6 +93,11 @@ body {
     padding: 20px;
     background-color: #FFE0AC;
     height: 50%;
+}
+
+label {
+    font-size: smaller;
+
 }
 
 
