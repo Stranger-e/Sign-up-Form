@@ -29,13 +29,13 @@
                     <div class="first-name">
                         <label for="first_name">FIRST NAME</label>
                         <br>
-                        <input type="text" id="first_name" name="first_name">
+                        <input type="text" id="first_name" name="first_name" placeholder="Ezekiel">
                     </div>
 
                     <div class="last-name">
                         <label for="last_name">LAST NAME</label>
                         <br>
-                        <input type="text" id="last_name" name="last_name">
+                        <input type="text" id="last_name" name="last_name" placeholder="Ogutu">
                     </div>
                 </div>
 
@@ -43,12 +43,12 @@
                     <div class="mail">
                         <label for="email">EMAIL</label>
                         <br>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" placeholder="someone@gmail.com">
                     </div>
                     <div class="number">
                         <label for="phone_number">PHONE NUMBER</label>
                         <br>
-                        <input type="tel" id="phone_number" name="phone_number">
+                        <input type="tel" id="phone_number" name="phone_number" placeholder="+254 1120 92579">
                     </div>
                 </div>
 
@@ -56,7 +56,7 @@
                     <div class="pass">
                         <label for="password">PASSWORD</label>
                         <br>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" required pattern=".{8,}" title="Password must be at least 8 characters long">
                     </div>
                     <div class="confirm-pass">
                         <label for="password_confirmation">CONFIRM PASSWORD</label>
@@ -68,7 +68,7 @@
         </div>
 
         <div class="last">
-            <button>Create Account</button>
+            <button type="submit">Create Account</button>
 
             <p>Already have an account? <a href="">Log in</a></p>
         </div>
