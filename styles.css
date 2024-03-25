@@ -8,14 +8,24 @@
     background-size: cover;
     height: 100vh;
     width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-bar p, a {
+    color: white;
+    text-align: center;
 }
 
 .logo {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 30%;
 
 }
 
@@ -32,7 +42,7 @@
     color: whitesmoke;
     font-weight: bold;
     font-family: myFont;
-    font-size: larger;
+    font-size: 4em;
 }
 
 body {
@@ -43,6 +53,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    width: 60vw;
 }
 
 .intro {
@@ -65,7 +76,7 @@ body {
 }
 
 .fill p {
-    font-weight: bold;
+    font-size: x-large;
 }
 
 .names {
@@ -95,9 +106,24 @@ body {
     height: 50%;
 }
 
+.last p {
+    font-weight: bold;
+    
+}
+
 label {
     font-size: smaller;
 
+}
+
+button {
+padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkslategrey;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
 }
 
 
